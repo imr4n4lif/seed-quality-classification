@@ -1,19 +1,50 @@
-# Seed Quality Classification
+# Seed Classification
 
-This project focuses on classifying seed quality using computer vision and deep learning techniques. The dataset contains seed images that are processed and trained using multiple state-of-the-art convolutional neural network (CNN) architectures to compare performance, accuracy, and computational efficiency.
-A machine learning project to classify seeds into **Good** or **Bad** based on images.  
-**Dataset:** Currently being collected and curated manually.
+This project focuses on **seed type classification** using computer vision and deep learning techniques. The goal is to identify the **type of seed** from an image.
+
+The dataset is **manually collected** and consists of images of real seeds belonging to specific vegetable categories.
 
 ---
 
-## Project Goals
-- Create a clean and dataset of good vs bad seeds.
-- Train and compare multiple image classification models.
-- Evaluate accuracy, precision, recall, and overall performance.
+## Seed Classes
+
+The dataset includes the following seed classes:
+
+* Bitter Melon
+* Bottle Gourd
+* Carrot
+* Cauliflower
+* Chili
+* Coriander Leaves
+* Cucumber
+* Hyacinth Bean
+* Malabar Spinach
+* Onion
+* Radish
+* Spinach
+* Tomato
+* Water Spinach
+
+---
+
+## Project Objectives
+
+* Create a manually collected dataset of different vegetable seeds.
+* Train deep learning models to classify seed **types** from images.
+* Compare model performance in terms of accuracy and efficiency.
 
 ---
 
 ## Models to Implement
-- **ResNet50V2**
-- **MobileNetV3-Large**
-- **EfficientNetB0**
+
+* **ResNet50V2**
+* **MobileNetV3-Large**
+* **EfficientNetB0**
+
+---
+
+## Dataset Information
+
+* **Data Source:** Manually collected
+* **Image Type:** Real seed images
+* **Task Type:** Multi-class image classification
